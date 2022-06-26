@@ -1,0 +1,16 @@
+@import "../../scss/variables";
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: $cardNavBgColor;
+  a {
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+    padding: 1rem;
+    &:hover {
+      background-color: $backgroundColor;
+      color: $cardNavBgColor;
+    }
+  }
+}
